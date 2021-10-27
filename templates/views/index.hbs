@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+  <head>
+    <title>Weather web</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/app.js"></script>
+  </head>
+  <body>
+    {{>header}}
+    <form id="weather">
+      <input type="text" placeholder="location" value="bostom">
+      <button>Search</button>
+    </form>
+    <h4 id="message-1"></h4>
+    <p id="message-2"></p>
+    {{>footer}}
+  </body>
+</html>
